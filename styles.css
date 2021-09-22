@@ -1,0 +1,80 @@
+#main{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: 100px;
+}
+
+.background{
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.explanation{
+  background-color: rgb(234, 245, 248);
+  height: 340px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: -10px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 360px;
+}
+
+p{
+    color: rgb(73, 70, 70);
+}
+
+.image{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.box{
+    background: rgb(217, 232, 235);
+     width: 75%;
+     display: flex;
+     align-items: center;
+    margin: 20px auto;
+   padding: 8px;
+   height: 70px;
+   border-radius: 8px;
+}
+
+.link {
+    margin-left: auto;
+}
+
+.annual{
+    margin: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+button{
+    background: rgb(24, 45, 168);
+    color: white;
+    width: 80%;
+    border-style: none;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 1px 18px 14px 0px rgb(198, 203, 236);
+}
+
+.cancel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
